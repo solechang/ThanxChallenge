@@ -147,6 +147,14 @@
     
     // Display image
     [cell.profileImageView sd_setImageWithURL:[NSURL URLWithString:tweet.imageURL] placeholderImage:nil options:SDWebImageRefreshCached];
+    
+    [cell.profileImageView  layoutIfNeeded];
+    cell.profileImageView.layer.cornerRadius = cell.profileImageView.frame.size.height /2;
+    cell.profileImageView.layer.masksToBounds = YES;
+    cell.profileImageView.layer.borderWidth = 0;
+    [[cell.profileImageView layer] setBorderWidth:1.0f];
+    [[cell.profileImageView layer] setBorderColor:[UIColor colorWithRed:0.488 green:0.749 blue:0.192 alpha:1].CGColor];
+
 
     return cell;
 }
@@ -161,7 +169,8 @@
     // Last cell to load more
     NSInteger lastSectionIndex = [tableView numberOfSections] - 1;
     NSInteger lastRowIndex = [tableView numberOfRowsInSection:lastSectionIndex] - 1;
-    if ((indexPath.section == lastSectionIndex) && (indexPath.row == lastRowIndex)) {
+    if ((indexPath.section == lastSectionIndex) && (indexPath.row == lastRowIndex) && [self.tweet isEqualToString:@"@ThanxInc"]) {
+        // Make sure self.tweet = @ThanxInc
         
         [SVProgressHUD showWithStatus:@"Loading.."];
         // This is the last cell
