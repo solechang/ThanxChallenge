@@ -16,8 +16,8 @@ Pods:
 'SDWebImage':
  - Used to load images
  
- 'STTwitter':
-  - Used to pull Twitter's content
+'STTwitter':
+ - Used to pull Twitter's content
   
- 'SVProgressHUD':
-  - Used to show when contents are getting loaded
+'SVProgressHUD':
+ - Used to show when contents are getting loaded
