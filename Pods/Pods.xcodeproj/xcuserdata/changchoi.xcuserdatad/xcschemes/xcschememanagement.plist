@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AFNetworking.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-ThanxChallenge.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -42,7 +37,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>18840EEDA41AF7A0A9A15FBDCE81DD2F</key>
+		<key>04C0243D1F1613D9EEE78E4DE6EBD03C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,22 +47,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>40A282595858052A35BA51974E4A37C5</key>
+		<key>44B9A6F90537C338B227A150EF9F3977</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9AF01FCF6147B630978C4AC165C32FA2</key>
+		<key>8252960F21BFBEAE9CFECE2FF74A4A3C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9E033EDB5EC0819481B0546434FA577B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E000B3ACACA95930674A664719AB4B78</key>
+		<key>B6CEDFA9D414295ED533A19272123A29</key>
 		<dict>
 			<key>primary</key>
 			<true/>

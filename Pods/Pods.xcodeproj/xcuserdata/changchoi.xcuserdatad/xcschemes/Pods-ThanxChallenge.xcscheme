@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '40A282595858052A35BA51974E4A37C5'
+               BlueprintIdentifier = '04C0243D1F1613D9EEE78E4DE6EBD03C'
                BlueprintName = 'Pods-ThanxChallenge'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-ThanxChallenge.a'>

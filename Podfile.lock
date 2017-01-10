@@ -1,19 +1,4 @@
 PODS:
-  - AFNetworking (3.1.0):
-    - AFNetworking/NSURLSession (= 3.1.0)
-    - AFNetworking/Reachability (= 3.1.0)
-    - AFNetworking/Security (= 3.1.0)
-    - AFNetworking/Serialization (= 3.1.0)
-    - AFNetworking/UIKit (= 3.1.0)
-  - AFNetworking/NSURLSession (3.1.0):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.1.0)
-  - AFNetworking/Security (3.1.0)
-  - AFNetworking/Serialization (3.1.0)
-  - AFNetworking/UIKit (3.1.0):
-    - AFNetworking/NSURLSession
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
@@ -21,17 +6,15 @@ PODS:
   - SVProgressHUD (2.0.3)
 
 DEPENDENCIES:
-  - AFNetworking
   - SDWebImage
   - STTwitter
   - SVProgressHUD
 
 SPEC CHECKSUMS:
-  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   STTwitter: 5c157e8dcb4f0e4cf5b4374393021b7d7b7fd497
   SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
 
-PODFILE CHECKSUM: 484d65ab05191ed20de1713200bdf93563455ec4
+PODFILE CHECKSUM: d1578cf733fd01f845a552bc945a4a4446205302
 
 COCOAPODS: 1.2.0.beta.1
